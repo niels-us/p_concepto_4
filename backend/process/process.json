@@ -1,0 +1,125 @@
+{
+    "data": [
+        {
+            "_id": "61cbb8d2b74bc30b828cab3b",
+            "name": "Creación de programa conducente-2021-semestre6",
+            "startDate": "2021-12-06T04:34:06.049Z",
+            "endDate": "2021-12-06T04:34:06.049Z",
+            "statusProcess": "Finalizado",
+            "typeProcess": "Actualización de información institucional",
+            "createdUser": "Administrador de OCA",
+            "updateUser": "Administrador de OCA",
+            "iteration": 1,
+            "createDate": "2021-12-29T01:24:34.254Z",
+            "updateDate": "2021-12-29T01:24:34.254Z",
+            "Formats": [
+                {
+                    "_id": "61cc88cf3a684d23aa107426",
+                    "processId": "61cbb8d2b74bc30b828cab3b",
+                    "templateFormatId": "61c5842c5f6ea4e556753f56",
+                    "name": "C1 - Malla curricular y análisis de créditos académicos-2021-semestre61",
+                    "statusFormat": "En proceso",
+                    "startDate": "2021-11-30T19:18:19.895Z",
+                    "endDate": "2021-11-30T19:18:19.895Z",
+                    "percentage": 0.5,
+                    "updateUser": "OCA",
+                    "createUser": "OCA",
+                    "updateDate": "2021-12-29T22:35:32.173Z",
+                    "createDate": "2021-12-24T09:19:09.950Z",
+                    "comment": [
+                        {
+                            "_id": "61cca4576f7aa5e400072118",
+                            "formatId": "61cc88cf3a684d23aa107426",
+                            "areaReception": "UCA - Recursos hídricos",
+                            "areaEmit": "OCA",
+                            "comment": "corregir documento A22",
+                            "dateTime": "2021-11-30T19:18:19.895Z",
+                            "status": "Resuelto",
+                            "createUser": "Administrador OCA",
+                            "createDate": "2021-12-29T18:09:27.872Z",
+                            "updateDate": "2021-12-29T18:45:32.093Z"
+                        }
+                    ],
+                    "indicators": [
+                        {
+                            "_id": "61ccb28b0a12085477584d14",
+                            "formatId": "61cc88cf3a684d23aa107426",
+                            "mVerificationId": "61cbd525891c471da955c3f6",
+                            "observation": "falta completar ciertos campos Formato B",
+                            "createDate": "2021-12-29T19:10:03.438Z",
+                            "updateDate": "2021-12-29T19:10:03.438Z"
+                        }
+                    ],
+                    "processactivityregisters": [],
+                    "addfield": [
+                        {
+                            "_id": "61ccb84d97f67046c4c747c7",
+                            "formatId": "61cc88cf3a684d23aa107426",
+                            "areaRolId": "61cc88cf3a684d23aa107426",
+                            "area": "OCA",
+                            "nameHeader": "Campo DJ",
+                            "addFields": [
+                                {
+                                    "key": "key1 ",
+                                    "value": "value1",
+                                    "_id": "61ccb91197f67046c4c747cc"
+                                }
+                            ],
+                            "createUser": "Admin OCA",
+                            "createDate": "2021-12-29T19:34:37.384Z",
+                            "updateDate": "2021-12-29T19:37:53.968Z"
+                        }
+                    ]
+                }
+            ],
+            "meansVerifications": [
+                {
+                    "_id": "61cbd525891c471da955c3f6",
+                    "processId": "61cbb8d2b74bc30b828cab3b",
+                    "name": "MV20 Eliminar",
+                    "url": "https:www.google.com",
+                    "createUser": "Administrador OCA",
+                    "createDate": "2021-12-29T03:25:25.580Z",
+                    "updateDate": "2021-12-29T03:34:03.384Z"
+                }
+            ],
+            "processactivityregisters": [
+                {
+                    "_id": "61cce36ed16be13e5cec2a05",
+                    "processId": "61cbb8d2b74bc30b828cab3b",
+                    "action": "Aprobar",
+                    "userId": "61c5842c5f6ea4e556753f56",
+                    "area": "OCA",
+                    "dateTime": "2021-12-23T05:58:20.654Z",
+                    "status": "Activo",
+                    "reason": "Reportes",
+                    "createDate": "2021-12-29T22:38:38.601Z",
+                    "updateDate": "2021-12-29T22:39:17.654Z"
+                }
+            ],
+            "processDownloadHistory": [
+                {
+                    "_id": "61cce1565ca269526eaddc51",
+                    "processId": "61cbb8d2b74bc30b828cab3b",
+                    "formatId": "61cc88cf3a684d23aa107426",
+                    "userId": "61c5842c5f6ea4e556753f56",
+                    "location": "C:/document",
+                    "reasonDown": "reportes",
+                    "createDate": "2021-12-29T22:29:42.595Z",
+                    "updateDate": "2021-12-29T22:54:24.473Z"
+                },
+                {
+                    "_id": "61cce3f6d16be13e5cec2a08",
+                    "processId": "61cbb8d2b74bc30b828cab3b",
+                    "formatId": "61cc88cf3a684d23aa107426",
+                    "userId": "61c5842c5f6ea4e556753f56",
+                    "location": "C:/document",
+                    "reasonDown": "reportes",
+                    "createDate": "2021-12-29T22:40:54.751Z",
+                    "updateDate": "2021-12-29T22:40:54.751Z"
+                }
+            ]
+        }
+    ],
+    "err": false
+}
